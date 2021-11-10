@@ -9,7 +9,7 @@ const Hero = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const countdownDate = new Date("Oct 16, 2021 04:00:00").getTime();
+    const countdownDate = new Date("Nov 16, 2021 04:00:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
